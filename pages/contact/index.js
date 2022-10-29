@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 
 const index = () => {
-    const router = useRouter()
+    // const router = useRouter()
     const sendMail = async (e) => {
         e.preventDefault()
         const name = e.target.name.value || "not given"
@@ -13,7 +13,7 @@ const index = () => {
         const result = await axios.post("https://mailing-service.onrender.com/sendmail", {
             name, email, location, text
         })
-        router.push("/")
+        // router.push("/")
     }
     return (
         <>
