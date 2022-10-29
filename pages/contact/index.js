@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Router from 'next/router';
 
-const index = () => {
+const Contact = () => {
     const [isLoading, setIsLoading] = useState(false)
     const sendMail = async (e) => {
         e.preventDefault()
@@ -66,7 +66,7 @@ const index = () => {
     );
 };
 
-export default index;
+export default Contact;
 
 {/*
             <div>
