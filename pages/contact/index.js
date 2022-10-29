@@ -32,7 +32,7 @@ const Contact = () => {
                         <label class="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2">
                             Email
                         </label>
-                        <input name='email' class=" mb-4 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Enter Your Email Address" />
+                        <input name='email' class=" mb-4 appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Enter Your Email Address" required />
 
                         <label class="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2" >
                             Your Phone Number
