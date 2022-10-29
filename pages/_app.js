@@ -6,9 +6,7 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <Script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></Script>
-      </Head>
+      <Script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></Script>
       <Component {...pageProps} />
     </>
   )
