@@ -26,7 +26,7 @@ export default function Home() {
                 We Build Website
               </p>
               <p className="font-bold text-[60px] text-[#486A6F]">
-                For You!
+                For You!!!
               </p>
               <p className="mb-16 text-[22px] text-[#678C92]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
