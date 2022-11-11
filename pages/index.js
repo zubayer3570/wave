@@ -1,7 +1,7 @@
 import Lottie from "react-lottie";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import style from "../styles/home.module.css"
+import style from "../styles/Home.module.css"
 import animationData from '../lottie-animations/animation1.json'
 
 export default function Home() {
