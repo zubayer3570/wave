@@ -24,7 +24,7 @@ const Contact = () => {
                         </div>
                         <div className='text-[#678C92] my-8'>
                             <p className='text-[16px] font-medium'>Office</p>
-                            <p className='font-bold text-[20px]'>We don't have office yet!</p>
+                            <p className='font-bold text-[20px]'>We do not have office yet!</p>
                         </div>
                     </div>
                     <div>
