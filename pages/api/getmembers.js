@@ -1,9 +1,8 @@
 import fs from 'fs'
 export default async function getmembers(req, res) {
     try {
-        fs.readFile("data/members.json", 'utf-8', (err, data)=>{
-            res.send(data)
-        })
+        const data = await fs.promises.readFile("data/members.json", 'utf-8')
+        res.send(data)
     } catch (error) {
         res.send(error)
     }
