@@ -1,10 +1,12 @@
 import axios from 'axios';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from '../../components/Footer';
 import MemberCard from '../../components/MemberCard';
 import Navbar from '../../components/Navbar';
 
-const index = ({ members }) => {
+const index = () => {
+    const [members, setMembers] = useState([])
+    axios.get("http://localhost:3000/api/getMembers").then(res=> setMembers(res.data))
     return (
         <>
             <div className='my-8'>
@@ -21,12 +23,12 @@ const index = ({ members }) => {
         </>
     );
 };
-export const getStaticProps = async () => {
-    const members = await axios.get("http://localhost:3000/api/getMembers")
-    return {
-        props: {
-            members: members.data
-        }
-    }
-}
+// export const getStaticProps = async () => {
+//     const members = await axios.get("http://localhost:3000/api/getMembers")
+//     return {
+//         props: {
+//             members: members.data
+//         }
+//     }
+// }
 export default index;
