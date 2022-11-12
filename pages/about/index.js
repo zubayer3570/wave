@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 import MemberCard from '../../components/MemberCard';
 import Navbar from '../../components/Navbar';
 
-const index = () => {
+const Index = () => {
     const [members, setMembers] = useState([])
     axios.get("http://localhost:3000/api/getMembers").then(res=> setMembers(res.data))
     return (
@@ -31,4 +31,4 @@ const index = () => {
 //         }
 //     }
 // }
-export default index;
+export default Index;
