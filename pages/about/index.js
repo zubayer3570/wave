@@ -25,7 +25,7 @@ export const getStaticProps = async () => {
     const members = await axios.get("http://localhost:3000/api/getMembers")
     return {
         props: {
-            members
+            members: members.data
         }
     }
 }
