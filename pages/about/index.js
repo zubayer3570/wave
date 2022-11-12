@@ -21,7 +21,7 @@ const index = ({ members }) => {
     );
 };
 export const getStaticProps = async () => {
-    const response = await fetch("http://localhost:3000/api/getMembers")
+    const response = await fetch("/api/getMembers")
     const members = await response.json()
     return {
         props: {
