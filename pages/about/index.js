@@ -24,7 +24,8 @@ const Index = ({members}) => {
     );
 };
 export const getStaticProps = async () => {
-    const members = await axios.get("http://localhost:3000/api/getMembers")
+    const res = await fetch("https://wave-psi.vercel.app/api/getMembers")
+    const members = await res.json()
     return {
         props: {
             members: members.data
