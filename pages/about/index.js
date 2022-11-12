@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect } from 'react';
 import Footer from '../../components/Footer';
 import MemberCard from '../../components/MemberCard';
@@ -21,8 +22,7 @@ const index = ({ members }) => {
     );
 };
 export const getStaticProps = async () => {
-    const response = await fetch("/api/getMembers")
-    const members = await response.json()
+    const members = await axios.get("http://localhost:3000/api/getMembers")
     return {
         props: {
             members
