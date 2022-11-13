@@ -3,34 +3,24 @@ import React, { useEffect, useState } from 'react';
 import Footer from '../../components/Footer';
 import MemberCard from '../../components/MemberCard';
 import Navbar from '../../components/Navbar';
+import {members} from '../../data/member'
 
-const Index = ({members}) => {
-    // const [members, setMembers] = useState([])
-    // axios.get("http://localhost:3000/api/getMembers").then(res=> setMembers(res.data))
+const Index = () => {
     return (
         <>
         <p>hi</p>
-            {/* <div className='my-8'>
+            <div className='my-8'>
                 <Navbar />
             </div>
             <p className='text-[#5BCCDE] text-center'>Our Team</p>
             <p className='font-bold text-[36px] text-[#486A6F] mb-6 text-center'>Let&apos;s meet!</p>
             <div className='grid grid-cols-3 gap-4 mx-[15%] mb-24'>
                 {
-                    JSON.parse(members)?.map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
+                    members.map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
                 }
             </div>
-            <Footer /> */}
+            <Footer />
         </>
     );
 };
-// export const getStaticProps = async () => {
-    // const members = await axios.get('/api/getmembers')
-    // const members = []
-    // return {
-    //     props: {
-    //         members: members.data
-    //     }
-    // }
-// }
 export default Index;
