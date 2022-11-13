@@ -24,13 +24,13 @@ const Index = ({members}) => {
         </>
     );
 };
-export const getStaticProps = async () => {
+// export const getStaticProps = async () => {
     // const members = await axios.get('/api/getmembers')
-    const members = []
-    return {
-        props: {
-            members: members.data
-        }
-    }
-}
+    // const members = []
+    // return {
+    //     props: {
+    //         members: members.data
+    //     }
+    // }
+// }
 export default Index;
