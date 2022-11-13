@@ -9,7 +9,8 @@ const Index = ({members}) => {
     // axios.get("http://localhost:3000/api/getMembers").then(res=> setMembers(res.data))
     return (
         <>
-            <div className='my-8'>
+        <p>hi</p>
+            {/* <div className='my-8'>
                 <Navbar />
             </div>
             <p className='text-[#5BCCDE] text-center'>Our Team</p>
@@ -19,7 +20,7 @@ const Index = ({members}) => {
                     JSON.parse(members)?.map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
                 }
             </div>
-            <Footer />
+            <Footer /> */}
         </>
     );
 };
