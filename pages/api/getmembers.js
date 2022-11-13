@@ -3,8 +3,9 @@ import path from 'path'
 export default async function getMembers(req, res) {
     try {
         const dataDirectory = path.join(process.cwd(), 'data')
-        const data = await fs.promises.readFile( dataDirectory + "/members.json" , 'utf-8')
-        res.send(data)
+        res.send(dataDirectory)
+        // const data = await fs.promises.readFile( dataDirectory + "/members.json" , 'utf-8')
+        // res.send(data)
     } catch (error) {
         res.send(error)
     }
