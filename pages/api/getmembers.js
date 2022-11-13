@@ -5,7 +5,8 @@ export default async function getMembers(req, res) {
         // const dataDirectory = path.join(process.cwd(), 'data')
         // const dataDirectory = fs.promises.readdir()
         const dataDirectory = path.resolve()
-        res.send(dataDirectory)
+        const read = fs.promises.readdir(dataDirectory)
+        res.send({dataDirectory, read})
         // const data = await fs.promises.readFile( dataDirectory + "/members.json" , 'utf-8')
         // res.send(data)
     } catch (error) {
