@@ -5,8 +5,8 @@ import style from '../styles/MemberCard.module.css'
 const MemberCard = ({ name, position }) => {
     return (
         <>
-            <div className='flex justify-center' >
-                <div className='w-[300px] rounded overflow-hidden'>
+            <div className='flex justify-center shadow-custom-1' >
+                <div className='rounded overflow-hidden'>
                     <div>
                         <Image src='/man-photo.jpg' width={300} height={300} />
                     </div>

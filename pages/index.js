@@ -2,19 +2,19 @@ import Lottie from "react-lottie";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import style from "../styles/Home.module.css"
-import animationData from '../lottie-animations/animation1.json'
+import animationData from '../lottie-animations/animation.json'
 import Packages from "../components/Packages";
 import FAQ from "../components/FAQ";
 
 export default function Home() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: animationData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice"
+  //   }
+  // }
   return (
     <>
       <div className={style.home}>
@@ -34,15 +34,15 @@ export default function Home() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <button className="bg-[#4397A4] rounded px-6 py-3 text-[white] text-[16px] font-bold m-2 shadow-2xl">Services</button>
-              <button className="bg-[#C6DBFF] rounded px-6 py-3 text-[#486A6F] text-[16px] font-bold m-2">About our company</button>
+              <button className="bg-[#C6DBFF] rounded px-6 py-3 text-[#486A6F] text-[16px] font-bold m-2">Contact Us</button>
             </div>
           </div>
           <div className="ml-40 mt-[-30px] hidden lg:block">
-            <Lottie
+            {/* <Lottie
               options={defaultOptions}
               height={400}
               width={400}
-            />
+            /> */}
           </div>
         </div>
       </div>

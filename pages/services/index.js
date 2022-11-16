@@ -1,9 +1,13 @@
 import React from 'react';
+import ServiceCard from '../../components/ServiceCard';
+import { services } from '../../data/services';
 
 const index = () => {
     return (
         <div>
-            <p>this is services</p>
+            {
+                services.map(service => <ServiceCard data={service} />)
+            }
         </div>
     );
 };
