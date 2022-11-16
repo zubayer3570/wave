@@ -3,15 +3,17 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import style from "../styles/Home.module.css"
 import animationData from '../lottie-animations/animation1.json'
+import Packages from "../components/Packages";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
+    // rendererSettings: {
+    //   preserveAspectRatio: "xMidYMid slice"
+    // }
   }
   return (
     <>
@@ -19,7 +21,7 @@ export default function Home() {
         <div className="pt-12 pb-8">
           <Navbar />
         </div>
-        <div className="grid grid-cols-2 mx-[9%] h-[70%]">
+        <div className="grid grid-cols-2 mx-[9%]">
           <div className="flex flex-col justify-center items-center">
             <div>
               <p className="font-bold text-[60px] text-[#486A6F]">
@@ -35,7 +37,7 @@ export default function Home() {
               <button className="bg-[#C6DBFF] rounded px-6 py-3 text-[#486A6F] text-[16px] font-bold m-2">About our company</button>
             </div>
           </div>
-          <div className="ml-40 mt-[-30px]">
+          <div className="ml-40 mt-[-30px] hidden lg:block">
             <Lottie
               options={defaultOptions}
               height={400}
@@ -44,6 +46,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Packages />
+      <FAQ />
       <Footer />
     </>
   )

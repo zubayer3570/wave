@@ -1,14 +1,12 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Footer from '../../components/Footer';
 import MemberCard from '../../components/MemberCard';
 import Navbar from '../../components/Navbar';
-import {members} from '../../data/member'
+import { members } from '../../data/member'
 
 const Index = () => {
     return (
         <>
-        <p>hi</p>
             <div className='my-8'>
                 <Navbar />
             </div>
