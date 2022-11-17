@@ -5,9 +5,8 @@ const Collapse = ({ question, answer }) => {
     return (
         <>
             <div className='rounded-2xl shadow-custom-2 cursor-pointer my-2'>
-                <div onClick={() => setAccState(!accState)} className='flex justify-between px-6 py-4 font-bold'>
+                {/* <div onClick={() => setAccState(!accState)} className='flex justify-between px-6 py-4 font-bold'>
                     <div>{question}</div>
-                    {/* <div>{accState ? <p>-</p> : <p>+</p> }</div> */}
                     <div className='flex items-center'>
                         <img src="/arrow.svg" alt="" className={`h-[15px] w-[15px] ${accState? "rotate-180" : "rotate-0"} duration-300`} />
                     </div>
@@ -15,7 +14,7 @@ const Collapse = ({ question, answer }) => {
                 </div>
                 <div className={`px-4 overflow-hidden max-h-0 duration-200 ease-in-out ${accState && 'max-h-[200px]'}`}>
                     {answer}
-                </div>
+                </div> */}
             </div>
         </>
     );

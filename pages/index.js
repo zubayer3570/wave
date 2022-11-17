@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Packages from "../components/Packages";
 import FAQ from "../components/FAQ";
-import Script from "next/script";
 
 export default function Home() {
   return (
