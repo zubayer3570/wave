@@ -7,8 +7,7 @@ import React from 'react';
 const index = () => {
     return (
         <>
-<img src="/man-photo.jpg" alt="" />
-        </>
+        <div>hi</div></>
     );
 };
 

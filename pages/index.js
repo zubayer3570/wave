@@ -1,20 +1,10 @@
-import Lottie from "react-lottie";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import style from "../styles/Home.module.css"
-import animationData from '../lottie-animations/animation.json'
 import Packages from "../components/Packages";
 import FAQ from "../components/FAQ";
 
 export default function Home() {
-  // const defaultOptions = {
-  //   loop: true,
-  //   autoplay: true,
-  //   animationData: animationData,
-  //   rendererSettings: {
-  //     preserveAspectRatio: "xMidYMid slice"
-  //   }
-  // }
   return (
     <>
       <div className={style.home}>
@@ -38,11 +28,6 @@ export default function Home() {
             </div>
           </div>
           <div className="ml-40 mt-[-30px] hidden lg:block">
-            {/* <Lottie
-              options={defaultOptions}
-              height={400}
-              width={400}
-            /> */}
           </div>
         </div>
       </div>
