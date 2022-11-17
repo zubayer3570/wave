@@ -1,27 +1,27 @@
 export const members = [
     {
         id: 1,
-        name: "zubayer",
+        name: "Mahmudul Hasan Zubayer",
         position: "React Developer"
     },
     {
         id: 2,
-        name: "fidbi",
+        name: "Fidbi Hasan",
         position: "Wordpress Developer"
     },
     {
         id: 3,
-        name: "zubayer",
+        name: "Nion Khan",
         position: "React Developer"
     },
     {
         id: 4,
-        name: "fidbi",
+        name: "Alif Dewan",
         position: "Wordpress Developer"
     },
     {
         id: 5,
-        name: "fidbi",
+        name: "Amir Hossain",
         position: "Wordpress Developer"
     }
 ]
