@@ -3,16 +3,16 @@ import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper";
 
 const Packages = () => {
     return (
         <>
-            <div className='mx-[9%] mb-40 mt-20 hidden lg:block'>
                 <p className="font-bold text-[60px] text-[#486A6F] text-center">
                     Our <span className='text-red-500'>Pricing</span>
                 </p>
+            <div className='mx-[9%] mb-40 mt-20 hidden lg:block'>
                 <div className='grid grid-cols-2 gap-8 lg:grid-cols-4 my-8'>
                     <div className='flex justify-center h-[400px] w-full '>
                         <div className='w-full rounded-xl shadow-custom-1 h-full p-4'>
@@ -50,7 +50,7 @@ const Packages = () => {
             </div>
 
 
-            <div className='lg:hidden'>
+            <div className='shadow-custom-1 m-8 lg:hidden'>
 
                 <Swiper
                     slidesPerView={1}
