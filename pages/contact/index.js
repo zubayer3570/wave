@@ -59,7 +59,7 @@ const Contact = () => {
                                         <p className='text-[14px] mb-[5px] '>Message</p>
                                         <textarea name="message" id="" cols="30" rows="5" className='border-[1.5px] rounded-[3px] border-[#486A6E] w-full bg-[#D7E5FC] border-[#486A6F] resize-none outline-0 mb-[20px]'></textarea>
                                     </div>
-                                    <button className='font-bold text-[16px] w-full h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center'>Send message</button>
+                                    <input type="submit" value='Send Message' className='font-bold text-[16px] w-full h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center' />
                                 </div>
                             </form>
                         </div>
