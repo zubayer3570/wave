@@ -1,23 +1,45 @@
 import Script from 'next/script';
 import React from 'react';
+import Navbar from './Navbar';
 
 const Packages = () => {
     return (
         <>
-            <div>
-                hi
-            </div>
-            <div id="default-carousel" class="relative" data-carousel="static">
+            <Script src={`https://unpkg.com/flowbite@1.5.4/dist/flowbite.js?${Math.random()}`} strategy='beforeInteractive'></Script>
+            <div id="default-carousel" class="relative lg:hidden" data-carousel="static">
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                        <img src="/man-photo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        {/* <img src="https://imgv3.fotor.com/images/homepage-feature-card/enhance-photo-of-three-girls-playing-in-the-sunflower-garden.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." /> */}
+                        <div className='flex justify-center h-[400px] w-full bg-red-500'>
+                            <div className='w-full rounded-xl shadow-custom-1 h-full p-4'>
+                                <p className='font-bold text-blue-500'>Basic</p>
+                                <p className="font-bold text-[35px] ml-4">
+                                    $20
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/man-photo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        {/* <img src="https://imgv3.fotor.com/images/homepage-feature-card/enhance-photo-of-three-girls-playing-in-the-sunflower-garden.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." /> */}
+                        <div className='flex justify-center h-[400px] w-full bg-red-500'>
+                            <div className='w-full rounded-xl shadow-custom-1 h-full p-4'>
+                                <p className='font-bold text-green-500'>Standard</p>
+                                <p className="font-bold text-[35px] ml-4">
+                                    $50
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/man-photo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        {/* <img src="https://imgv3.fotor.com/images/homepage-feature-card/enhance-photo-of-three-girls-playing-in-the-sunflower-garden.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." /> */}
+                        <div className='flex justify-center h-[400px] w-full bg-red-500'>
+                            <div className='w-full rounded-xl shadow-custom-1 h-full p-4'>
+                                <p className='font-bold text-red-500'>Premium</p>
+                                <p className="font-bold text-[35px] ml-4">
+                                    $100
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
@@ -39,10 +61,7 @@ const Packages = () => {
                 </button>
             </div>
 
-
-
-
-            {/* <div className='mx-[9%] mb-40 mt-20'>
+            <div className='mx-[9%] mb-40 mt-20 hidden lg:block '>
                 <p className="font-bold text-[60px] text-[#486A6F] text-center">
                     Our <span className='text-red-500'>Pricing</span>
                 </p>
@@ -80,7 +99,8 @@ const Packages = () => {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
+
         </>
     );
 };
