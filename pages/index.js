@@ -21,7 +21,7 @@ export default function Home() {
         <div className="pt-12 pb-8">
           <Navbar />
         </div>
-        <div className="grid grid-cols-2 mx-[9%]">
+        <div className="lg:grid grid-cols-2 mx-[9%]">
           <div className="flex flex-col justify-center items-center">
             <div>
               <p className="font-bold text-[60px] text-[#486A6F]">

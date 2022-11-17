@@ -25,7 +25,7 @@ const Navbar = () => {
                     Need a Website?
                 </p>
             </div>
-            <div className='lg:hidden' onClick={toggleMenu}>
+            <div className='lg:hidden flex justify-end items-center' onClick={toggleMenu}>
                 <img className='w-[20px] h-[20px]' src="/menu.svg" />
             </div>
             <div className={menuShow ? 'absolute top-[100px] right-[10px] lg:hidden' : 'absolute top-[200px] right-[30px] hidden'}>

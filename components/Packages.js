@@ -1,7 +1,12 @@
+import Script from 'next/script';
 import React from 'react';
 
 const Packages = () => {
     return (
+
+
+
+
         <div className='mx-[9%] mb-40 mt-20'>
             <p className="font-bold text-[60px] text-[#486A6F] text-center">
                 {/* Our Packages */}
