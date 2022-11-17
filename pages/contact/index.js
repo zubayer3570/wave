@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
-import style from '../../styles/Contact.module.css'
+import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import { sendEmail } from '../../utilities/sendEmail';
+import axios from 'axios';
 
 const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
-        sendEmail({
+        axios.post("https://mailing-service.onrender.com/sendmail", {
             name: e.target.name.value,
-            name: e.target.email.value,
-            name: e.target.subject.value,
-            name: e.target.message.value,
-        })
+            email: e.target.email.value,
+            text: e.target.message.value
+        }).then(data => console.log(data))
     }
     return (
         <>
