@@ -4,7 +4,7 @@ const Collapse = ({ question, answer }) => {
     const [accState, setAccState] = useState(false)
     return (
         <>
-            <div className='rounded-2xl shadow-custom-2 cursor-pointer my-2'>
+            <div className='rounded-2xl shadow-custom-2 cursor-pointer mb-2'>
                 <div onClick={() => setAccState(!accState)} className='flex justify-between px-6 py-4 font-bold'>
                     <div>{question}</div>
                     <div className='flex items-center'>

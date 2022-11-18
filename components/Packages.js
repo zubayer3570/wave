@@ -8,10 +8,10 @@ import { Navigation, Pagination } from "swiper";
 const Packages = () => {
     return (
         <>
-            <p className="font-bold text-[60px] text-[#486A6F] text-center">
+            <p className="font-bold text-[60px] text-[#486A6F] text-center mt-40 mb-8">
                 Our <span className='text-red-500'>Pricing</span>
             </p>
-            <div className='mx-[9%] mb-40 mt-20 hidden lg:block'>
+            <div className='mx-[9%] hidden lg:block'>
                 <div className='grid grid-cols-2 gap-8 lg:grid-cols-4 my-8'>
                     <div className='flex justify-center h-[400px] w-full '>
                         <div className='w-full rounded-xl shadow-custom-1 h-full p-4'>

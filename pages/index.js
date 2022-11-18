@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <div>
         <div>
-          <p className="font-bold text-[60px] text-[#486A6F] text-center">
+          <p className="font-bold text-[60px] text-[#486A6F] text-center mt-20 mb-12">
             Our <span className='text-red-500'>Services</span>
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function Home() {
               )
             }
           </div>
-          <div className="lg:hidden shadow-custom-1 lg:hidden">
+          <div className="lg:hidden">
             <Swiper
               slidesPerView={1.5}
               spaceBetween={20}
