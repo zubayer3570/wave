@@ -50,9 +50,11 @@ export default function Home() {
           <div className="lg:grid grid-cols-3 gap-12 mx-[9%] hidden">
             {
               services.map(service => (
-                <Link href={`/serviceDetails/${service.id}`}>
-                  <ServiceCard name={service.name} price={service.price} />
-                </Link>
+                <div key={service.id}>
+                  <Link href={`/serviceDetails/${service.id}`}>
+                    <ServiceCard name={service.name} price={service.price} />
+                  </Link>
+                </div>
               ))
             }
           </div>

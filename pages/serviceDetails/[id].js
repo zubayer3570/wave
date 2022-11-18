@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const id = () => {
+const Id = () => {
     const { id } = useRouter().query
     return (
         <div>
@@ -11,4 +11,4 @@ const id = () => {
     );
 };
 
-export default id;
+export default Id;
