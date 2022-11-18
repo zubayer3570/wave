@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+import WorkingProcess from "../components/WorkingProcess";
 
 export default function Home() {
   return (
@@ -49,7 +50,7 @@ export default function Home() {
         <div>
           <div className="lg:grid grid-cols-3 gap-12 mx-[9%] hidden">
             {
-              services.map(service =>
+              services.slice(0, 3).map(service =>
                 <div key={service.id}>
                   <Link href={`/serviceDetails/${service.id}`}>
                     <ServiceCard name={service.name} price={service.price} serviceId={service.id} />
@@ -84,9 +85,15 @@ export default function Home() {
               }
             </Swiper>
           </div>
+          <div>
+            <Link href='/services'>
+              <button className="block m-auto mt-12 bg-[#4397A4] rounded px-4 py-3 text-[white] text-[16px] font-bold shadow-2xl">See All Services</button>
+            </Link>
+          </div>
         </div>
       </div>
       <Packages />
+      <WorkingProcess />
       <FAQ />
       <Footer />
     </>
