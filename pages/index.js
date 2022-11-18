@@ -49,19 +49,20 @@ export default function Home() {
         <div>
           <div className="lg:grid grid-cols-3 gap-12 mx-[9%] hidden">
             {
-              services.map(service => (
+              services.map(service =>
                 <div key={service.id}>
                   <Link href={`/serviceDetails/${service.id}`}>
-                    <ServiceCard name={service.name} price={service.price} />
+                    <ServiceCard name={service.name} price={service.price} serviceId={service.id} />
                   </Link>
                 </div>
-              ))
+              )
             }
           </div>
-          <div className="lg:hidden shadow-custom-1 m-8 lg:hidden">
+          <div className="lg:hidden shadow-custom-1 lg:hidden">
             <Swiper
-              slidesPerView={1}
-              spaceBetween={30}
+              slidesPerView={1.5}
+              spaceBetween={20}
+              centeredSlides={true}
               loop={true}
               pagination={{
                 clickable: true,
@@ -75,7 +76,7 @@ export default function Home() {
                   <div key={service.id}>
                     <SwiperSlide>
                       <Link href={`/serviceDetails/${service.id}`}>
-                        <ServiceCard name={service.name} price={service.price} />
+                        <ServiceCard name={service.name} price={service.price} serviceId={service.id} />
                       </Link>
                     </SwiperSlide>
                   </div>
