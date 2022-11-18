@@ -7,9 +7,7 @@ import { members } from '../../data/member'
 const Index = () => {
     return (
         <>
-            <div className='my-8'>
-                <Navbar />
-            </div>
+            <Navbar />
             <p className='text-[#5BCCDE] text-center'>Our Team</p>
             <p className='font-bold text-[36px] text-[#486A6F] mb-6 text-center'>Let&apos;s meet!</p>
             <div className='grid grid-cols-3 gap-12 mx-12 mb-24'>

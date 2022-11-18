@@ -15,10 +15,8 @@ const Contact = () => {
     return (
         <>
             <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
-                <div className="bg-[url('/Figure.svg')] bg-no-repeat bg-right-top py-8">
-                    <div className="pt-12 pb-8">
-                        <Navbar />
-                    </div>
+                <div className="bg-[url('/Figure.svg')] bg-no-repeat bg-right-top">
+                    <Navbar />
                     <div className='grid grid-cols-2 mx-[9%]'>
                         <div>
                             <p className='text-[#5BCCDE]'>Contact</p>

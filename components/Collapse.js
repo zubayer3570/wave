@@ -10,10 +10,9 @@ const Collapse = ({ question, answer }) => {
                     <div className='flex items-center'>
                         <img src="/arrow.svg" alt="" className={`h-[15px] w-[15px] ${accState? "rotate-180" : "rotate-0"} duration-300`} />
                     </div>
-
                 </div>
-                <div className={`px-4 overflow-hidden max-h-0 duration-200 ease-in-out ${accState && 'max-h-[200px]'}`}>
-                    {answer}
+                <div className={`overflow-hidden max-h-0 duration-200 ease-in-out ${accState && 'max-h-[300px]'}`}>
+                    <p className='px-6 pb-6'>{answer}</p>
                 </div>
             </div>
         </>

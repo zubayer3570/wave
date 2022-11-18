@@ -1,16 +1,17 @@
-import Image from 'next/image';
-import Script from 'next/script';
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import Packages from '../../components/Packages';
-// import ServiceCard from '../../components/ServiceCard';
-// import { services } from '../../data/services';
+import ServiceCard from '../../components/ServiceCard';
+import { services } from '../../data/services';
 
 const index = () => {
     return (
         <>
-            <Navbar />
-            <Packages />
+        <Navbar />
+            <div className='grid grid-cols-3 m-8 gap-8'>
+                {
+                    services.map(service => <ServiceCard name={service.name} price={service.price} />)
+                }
+            </div>
         </>
     );
 };

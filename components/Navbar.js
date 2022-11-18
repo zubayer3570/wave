@@ -6,7 +6,7 @@ const Navbar = () => {
         setMenuShow(!menuShow);
     }
     return (
-        <div className='grid grid-cols-3 mx-[9%]'>
+        <div className='grid grid-cols-3 px-[9%] py-[5%]'>
             <div>
                 <Link href='/'>
                     <p className='font-bold text-[24px] text-[#486A6F]'>Wave</p>
