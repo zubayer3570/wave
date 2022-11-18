@@ -3,7 +3,7 @@ import React from 'react';
 const WorkingProcess = () => {
     return (
         <div>
-            Listen: At first, we listen to all of the clients requirements very carefully.
+            {/* Listen: At first, we listen to all of the clients requirements very carefully.
 
             Make draft: While listening, we make draft and take notes of important needs of our customers.
 
@@ -15,7 +15,7 @@ const WorkingProcess = () => {
 
             Revise: After showing to clients, we redesign/ customize the site where needed. And, at the end of this stage, our website gets ready for deliver.
 
-            Deliver: We deliver the complete project after full payment and complete our task.
+            Deliver: We deliver the complete project after full payment and complete our task. */}
         </div>
     );
 };
