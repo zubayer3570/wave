@@ -70,11 +70,13 @@ export default function Home() {
             >
               {
                 services.map(service => (
-                  <SwiperSlide>
-                    <Link href={`/serviceDetails/${service.id}`}>
-                      <ServiceCard name={service.name} price={service.price} />
-                    </Link>
-                  </SwiperSlide>
+                  <div key={service.id}>
+                    <SwiperSlide>
+                      <Link href={`/serviceDetails/${service.id}`}>
+                        <ServiceCard name={service.name} price={service.price} />
+                      </Link>
+                    </SwiperSlide>
+                  </div>
                 ))
               }
             </Swiper>
