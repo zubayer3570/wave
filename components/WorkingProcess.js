@@ -21,7 +21,7 @@ const WorkingProcess = () => {
                 </div>
                 <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
                     <p className='font-bold text-[20px] text-center'>Build</p>
-                    <p className='font-medium text-center'>Build: We create our customer's desired website in this phase.</p>
+                    <p className='font-medium text-center'>Build: We create our customers desired website in this phase.</p>
                 </div>
                 <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
                     <p className='font-bold text-[20px] text-center'>Show</p>
