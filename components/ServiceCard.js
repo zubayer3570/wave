@@ -1,16 +1,14 @@
-import Image from 'next/image';
 import React from 'react';
 
-const ServiceCard = ({ name, price, id }) => {
+const ServiceCard = ({ name, price }) => {
     return (
-        <div className={`bg-gradient-to-r ${id % 2 ? "from-[#C6DBFF] to-[#E1EBFA]" : 'from-[#E1EBFA] to-[#C6DBFF]' } grid grid-cols-5 w-full rounded overflow-hidden my-8`}>
-            <div className={`${id % 2 || "order-3"} col-span-2 m-4`}>
-                <img src='/man-photo.jpg' className='rounded-xl' />
+        <div className='rounded-xl shadow-custom-1 overflow-hidden'>
+            <div>
+                <img src='/man-photo.jpg' className='w-full' />
             </div>
-            <div className='order-1 col-span-3'>
-                <div className='pl-2 py-4'>
-                    <p className='font-bold text-[16px] text-[#486A6F]'>{name}</p>
-                    <p className='font-medium text-[16px] text-[#678C92]'>{price}</p>
+            <div className='bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]'>
+                <div className='pl-2 pb-12 pt-6 lg:py-4'>
+                    <p className='font-bold text-[16px] text-[#486A6F] text-center'>{name}</p>
                 </div>
             </div>
         </div>

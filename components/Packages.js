@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,9 +8,9 @@ import { Navigation, Pagination } from "swiper";
 const Packages = () => {
     return (
         <>
-                <p className="font-bold text-[60px] text-[#486A6F] text-center">
-                    Our <span className='text-red-500'>Pricing</span>
-                </p>
+            <p className="font-bold text-[60px] text-[#486A6F] text-center">
+                Our <span className='text-red-500'>Pricing</span>
+            </p>
             <div className='mx-[9%] mb-40 mt-20 hidden lg:block'>
                 <div className='grid grid-cols-2 gap-8 lg:grid-cols-4 my-8'>
                     <div className='flex justify-center h-[400px] w-full '>
