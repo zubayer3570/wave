@@ -43,10 +43,5 @@ export const services = [
         id: 9,
         name: 'Blog',
         price: '$30'
-    },
-    {
-        id: 10,
-        name: 'Blog',
-        price: '$30'
     }
 ]
