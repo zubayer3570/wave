@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react'
 const Navbar = () => {
+    const router = useRouter()
     const [menuShow, setMenuShow] = useState(false)
     const toggleMenu = () => {
         setMenuShow(!menuShow);
@@ -21,7 +23,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div>
-                <p className='font-bold text-[16px] w-[165px] h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center lg:ml-auto'>
+                <p onClick={()=> router.push('/signup')} className='cursor-pointer font-bold text-[16px] w-[165px] h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center lg:ml-auto'>
                     Need a Website?
                 </p>
             </div>

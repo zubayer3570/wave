@@ -6,9 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      boxShadow:{
+      boxShadow: {
         "custom-1": "rgba(0, 0, 0, 0.15) 0px 5px 15px 0px",
         "custom-2": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+      },
+      colors: {
+        "text-color-1": "#486A6F"
       }
     }
   },

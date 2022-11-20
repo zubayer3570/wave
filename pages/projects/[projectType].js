@@ -1,11 +1,15 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
-import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import ProjectCard from '../../components/ProjectCard';
-import { projects } from '../../data/projects'
+import { projects } from '../../data/projects';
 
-const index = () => {
+const ProjectId = () => {
+    const { projectType } = useRouter().query
+    console.log(projectType)
+    const selected = projects.filter(project => project.type == projectType)
+    console.log(selected)
     return (
         <>
             <Navbar />
@@ -20,12 +24,11 @@ const index = () => {
             </div>
             <div className='grid grid-cols-3 gap-12 mx-[9%]'>
                 {
-                    projects.map(project => <ProjectCard key={project.id} type={project.type} developer={project.developer} imgSrc={project.imgSrc} />)
+                    selected.map(project => <ProjectCard imgSrc={project.imgSrc} type={project.type} developer={project.developer} key={project.id} />)
                 }
             </div>
-            <Footer />
         </>
     );
 };
 
-export default index;
+export default ProjectId;

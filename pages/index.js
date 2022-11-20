@@ -10,8 +10,11 @@ import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import WorkingProcess from "../components/WorkingProcess";
+import { auth } from "../firebase.init";
 
 export default function Home() {
+  const user = auth.currentUser
+  console.log(user)
   return (
     <>
       <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
@@ -47,47 +50,15 @@ export default function Home() {
             Our <span className='text-red-500'>Services</span>
           </p>
         </div>
-        <div>
-          <div className="lg:grid grid-cols-3 gap-12 mx-[9%] hidden">
-            {
-              services.slice(0, 3).map(service =>
-                <div key={service.id}>
-                  <Link href={`/serviceDetails/${service.id}`}>
-                    <ServiceCard name={service.name} price={service.price} serviceId={service.id} />
-                  </Link>
-                </div>
-              )
-            }
-          </div>
-          <div className="lg:hidden">
-            <Swiper
-              slidesPerView={1.5}
-              spaceBetween={20}
-              centeredSlides={true}
-              loop={true}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
-              modules={[Pagination, Navigation]}
-              className="mySwiper"
-            >
-              {
-                services.map(service => (
-                  <div key={service.id}>
-                    <SwiperSlide>
-                      <Link href={`/serviceDetails/${service.id}`}>
-                        <ServiceCard name={service.name} price={service.price} serviceId={service.id} />
-                      </Link>
-                    </SwiperSlide>
-                  </div>
-                ))
-              }
-            </Swiper>
+        <div className="grid grid-cols-2 mx-[9%] gap-12 rounded-2xl overflow-hidden">
+          <div>
+            <img src="/man-photo.jpg" alt="" />
           </div>
           <div>
+            <p>Heading</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt adipisci dicta, ratione distinctio recusandae laborum sapiente nihil odit eligendi iusto.</p>
             <Link href='/services'>
-              <button className="block m-auto mt-12 bg-[#4397A4] rounded px-4 py-3 text-[white] text-[16px] font-bold shadow-2xl">See All Services</button>
+              <button className="block mt-8 bg-[#4397A4] rounded px-4 py-3 text-[white] text-[16px] font-bold shadow-2xl">See All Services</button>
             </Link>
           </div>
         </div>

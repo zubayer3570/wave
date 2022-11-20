@@ -1,47 +1,22 @@
 export const services = [
     {
         id: 1,
-        name: 'Blog',
-        price: '$30'
+        name: 'blog',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam provident est animi quaerat similique deserunt laudantium ullam maiores, nihil repudiandae. Non, est illo corrupti iusto distinctio eaque facilis facere."
     },
     {
         id: 2,
-        name: 'Blog',
-        price: '$30'
+        name: 'eCommerce',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam provident est animi quaerat similique deserunt laudantium ullam maiores, nihil repudiandae. Non, est illo corrupti iusto distinctio eaque facilis facere.'
     },
     {
         id: 3,
-        name: 'Blog',
-        price: '$30'
+        name: 'business',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam provident est animi quaerat similique deserunt laudantium ullam maiores, nihil repudiandae. Non, est illo corrupti iusto distinctio eaque facilis facere.'
     },
     {
         id: 4,
-        name: 'Blog',
-        price: '$30'
-    },
-    {
-        id: 5,
-        name: 'Blog',
-        price: '$30'
-    },
-    {
-        id: 6,
-        name: 'Blog',
-        price: '$30'
-    },
-    {
-        id: 7,
-        name: 'Blog',
-        price: '$30'
-    },
-    {
-        id: 8,
-        name: 'Blog',
-        price: '$30'
-    },
-    {
-        id: 9,
-        name: 'Blog',
-        price: '$30'
+        name: 'news',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam provident est animi quaerat similique deserunt laudantium ullam maiores, nihil repudiandae. Non, est illo corrupti iusto distinctio eaque facilis facere.'
     }
 ]

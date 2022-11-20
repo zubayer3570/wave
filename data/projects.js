@@ -1,55 +1,55 @@
 export const projects = [
     {
         id: 1,
-        type: 'Blog',
+        type: 'blog',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 2,
-        type: 'Blog',
+        type: 'blog',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 3,
-        type: 'Blog',
+        type: 'news',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 4,
-        type: 'Blog',
+        type: 'eCommerce',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 5,
-        type: 'Blog',
+        type: 'eCommerce',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 6,
-        type: 'Blog',
+        type: 'eCommerce',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 7,
-        type: 'Blog',
+        type: 'eCommerce',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 8,
-        type: 'Blog',
+        type: 'business',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     },
     {
         id: 9,
-        type: 'Blog',
+        type: 'business',
         developer: 'Mahmudul Hasan Zubayer',
         imgSrc: '/man-photo.jpg'
     }

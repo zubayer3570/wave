@@ -10,7 +10,7 @@ const index = () => {
             <Navbar />
             <div className='mx-[9%] gap-12'>
                 {
-                    services.map(service => <ServiceHeroCard key={service.id} id={service.id} name={service.name} price={service.price} />)
+                    services.map(service => <ServiceHeroCard key={service.id} id={service.id} name={service.name} text={service.text} />)
                 }
             </div>
             <Footer />
