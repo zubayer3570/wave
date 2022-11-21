@@ -12,7 +12,7 @@ export const members = [
     {
         id: 3,
         name: "Nion Khan",
-        position: "React Developer"
+        position: "Wordpress Developer"
     },
     {
         id: 4,

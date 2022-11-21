@@ -11,7 +11,8 @@ module.exports = {
         "custom-2": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
       },
       colors: {
-        "text-color-1": "#486A6F"
+        "text-color-1": "#486A6F",
+        "text-color-2": "#678C92",
       }
     }
   },
