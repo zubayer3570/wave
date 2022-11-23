@@ -17,7 +17,7 @@ export default function Home() {
       <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
         <div className="bg-[url('/Figure.svg')] bg-no-repeat bg-right-top h-[100vh]">
           <Navbar />
-          <div className="lg:grid grid-cols-2 mx-[9%]">
+          <div className="lg:grid grid-cols-2 mx-[9%] mt-[30px]">
             <div className="flex flex-col justify-center items-center">
               <div className="mt-4">
                 <p className="font-bold text-[60px] text-[#486A6F]">
@@ -53,7 +53,7 @@ export default function Home() {
               <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_oezdywcm.json" autoplay loop speed='1' background="transparent" />
             </div>
           </div>
-          <div className="mx-8 mt-6">
+          <div className="mr-8 mt-6">
             <p className="text-text-color-1 font-bold text-[40px]">Heading</p>
             <p className="text-text-color-2 font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt adipisci dicta, ratione distinctio recusandae laborum sapiente nihil odit eligendi iusto.</p>
             <p className="text-text-color-2 font-medium">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt adipisci dicta, ratione distinctio recusandae laborum sapiente nihil odit eligendi iusto.</p>

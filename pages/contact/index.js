@@ -6,16 +6,6 @@ import { useRouter } from 'next/router';
 import Contact from '../../components/Contact';
 
 const ContactPage = () => {
-    const router = useRouter()
-    console.log(router)
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        axios.post("https://mailing-service.onrender.com/sendmail", {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            text: e.target.message.value
-        }).then(data => router.push('/'))
-    }
     return (
         <>
             <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">

@@ -14,8 +14,8 @@ const Contact = () => {
     }
     return (
         <>
-            <div className='grid grid-cols-2 mx-[9%]'>
-                <div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 lg:mx-[9%]'>
+                <div className='mx-8 lg:mx-0'>
                     <p className='text-[#5BCCDE]'>Contact</p>
                     <p className='font-bold text-[36px] text-[#486A6F] mb-16'>Get In Touch</p>
                     <div className='text-[#678C92] my-8'>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div>
                     <form onSubmit={handleSubmit}>
-                        <div className='w-[450px] bg-[#D7E5FC] p-8 shadow-2xl text-[#678C92]'>
+                        <div className='mx-8 bg-[#D7E5FC] p-8 shadow-2xl text-[#678C92] rounded'>
                             <div className='grid grid-cols-2 gap-4'>
                                 <div>
                                     <p className='text-[14px] mb-[5px] '>Name</p>

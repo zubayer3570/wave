@@ -1,7 +1,0 @@
-.background{
-    height: 100vh;
-    background-image: url('/Figure.svg'), linear-gradient(to right, #C6DBFF, #E1EBFA);
-    background-repeat: no-repeat;
-    background-position: top 0% right 0%;
-    margin-bottom: 400px;
-}
