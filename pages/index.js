@@ -6,12 +6,9 @@ import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 import WorkingProcess from "../components/WorkingProcess";
-import { auth } from "../firebase.init";
 import Contact from "../components/Contact";
 
 export default function Home() {
-  const user = auth.currentUser
-  console.log(user)
   return (
     <>
       <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
@@ -47,7 +44,7 @@ export default function Home() {
             Our <span className='text-red-500'>Services</span>
           </p>
         </div>
-        <div className="grid grid-cols-2 mx-[9%] rounded-2xl overflow-hidden shadow-custom-1">
+        <div className="grid lg:grid-cols-2 mx-[9%] rounded-2xl overflow-hidden shadow-custom-1">
           <div className="h-[350px] flex justify-center items-center">
             <div className="h-[600px]">
               <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_oezdywcm.json" autoplay loop speed='1' background="transparent" />
