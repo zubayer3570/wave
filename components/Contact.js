@@ -18,17 +18,32 @@ const Contact = () => {
                 <div className='mx-8 lg:mx-0'>
                     <p className='text-[#5BCCDE]'>Contact</p>
                     <p className='font-bold text-[36px] text-[#486A6F] mb-16'>Get In Touch</p>
-                    <div className='text-[#678C92] my-8'>
-                        <p className='text-[16px] font-medium'>Phone</p>
-                        <p className='font-bold text-[20px]'>01823-323854</p>
+                    <div className='text-[#678C92] my-8 flex'>
+                        <div>
+                            <img src="/telephone-icon.png" alt="" />
+                        </div>
+                        <div className='ml-8'>
+                            <p className='text-[16px] font-medium'>Phone</p>
+                            <p className='font-bold text-[20px]'>01823-323854</p>
+                        </div>
                     </div>
-                    <div className='text-[#678C92] my-8'>
-                        <p className='text-[16px] font-medium'>Email</p>
-                        <p className='font-bold text-[20px]'>wave.coredevs@gmail.com</p>
+                    <div className='text-[#678C92] my-8 flex'>
+                        <div>
+                            <img src="/telephone-icon.png" alt="" />
+                        </div>
+                        <div className='ml-8 overflow-wrap'>
+                            <p className='text-[16px] font-medium'>Email</p>
+                            <p className='font-bold text-[16px] lg:text-[20px]'>wave.coredevs@gmail.com</p>
+                        </div>
                     </div>
-                    <div className='text-[#678C92] my-8'>
-                        <p className='text-[16px] font-medium'>Office</p>
-                        <p className='font-bold text-[20px]'>We do not have office yet!</p>
+                    <div className='text-[#678C92] my-8 flex'>
+                        <div>
+                            <img src="/telephone-icon.png" alt="" />
+                        </div>
+                        <div className='ml-8'>
+                            <p className='text-[16px] font-medium'>Office</p>
+                            <p className='font-bold text-[20px]'>Don't have office yet!</p>
+                        </div>
                     </div>
                 </div>
                 <div>
