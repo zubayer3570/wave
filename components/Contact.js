@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                         <div className='ml-8'>
                             <p className='text-[16px] font-medium'>Office</p>
-                            <p className='font-bold text-[20px]'>Don't have office yet!</p>
+                            <p className='font-bold text-[20px]'>Don&apos;t have office yet!</p>
                         </div>
                     </div>
                 </div>
