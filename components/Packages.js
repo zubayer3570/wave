@@ -8,7 +8,7 @@ import { Navigation, Pagination } from "swiper";
 const Packages = () => {
     return (
         <>
-            <p className="font-bold text-[60px] text-[#486A6F] text-center mt-40 mb-8">
+            {/* <p className="font-bold text-[60px] text-[#486A6F] text-center mt-40 mb-8">
                 Our <span className='text-red-500'>Pricing</span>
             </p>
             <div className='mx-[9%] hidden lg:block'>
@@ -72,7 +72,7 @@ const Packages = () => {
                             </p>
                             <p className='font-bold'>
                                 - No limit to page count<br />
-                                - Any Kinds of Website<br />
+                                - Any Kind of Website<br />
                                 - Responsive Web Pages <br />
                                 - Professional Designs <br />
                                 - Fast and Interactive UI <br />
@@ -178,7 +178,7 @@ const Packages = () => {
                     </SwiperSlide>
                 </Swiper>
 
-            </div>
+            </div> */}
         </>
     );
 };
