@@ -1,6 +1,5 @@
 import React from 'react';
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 const WorkingProcess = () => {
@@ -9,90 +8,110 @@ const WorkingProcess = () => {
             <div>
                 <p className='text-center text-[#486A6F] font-bold text-[60px] mt-40 mb-8'>How we Work?</p>
             </div>
-            {/* <div className='mx-[9%]'> */}
-            <div className='relative font-bold mx-[20%]'>
+            <div className='relative mx-[20%]'>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[16px] bottom-[0px] w-[1px] h-[50%] bg-[black] z-[-1]'></div>
+                    <div className='absolute left-[17px] bottom-[0px] w-[2px] h-[50%] bg-[#4397A4] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[30px] w-[30px] rounded-full bg-[orange] mr-[15px]'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>1</div>
                     </div>
-                    <div className='my-[15px] bg-green-500 p-[15px]'>
-                        <div className='flex items-end'>
-                            {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
-                            <div className='w-[70px] h-[70px]'>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
+                            <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold'>Taking Notes!</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Listening & Note Taking</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia velit expedita itaque distinctio facere accusantium harum et sapiente nulla ipsum.</p>
+                        <p className='font-medium text-[#678C92]'>At first, we pay attention to your requirements carefully and make important drafts to understand your needs properlyz</p>
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[16px] w-[1px] h-[100%] bg-[black] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[30px] w-[30px] rounded-full bg-[orange] mr-[15px]'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>2</div>
                     </div>
-                    <div className='my-[15px] bg-green-500 p-[15px]'>
-                        <div className='flex items-end'>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
                             {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
-                            <div className='w-[70px] h-[70px]'>
+                            <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold'>Taking Notes!</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Planning</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia velit expedita itaque distinctio facere accusantium harum et sapiente nulla ipsum.</p>
+                        <p className='font-medium text-[#678C92]'>
+                            All of our team members sit together with the draft and plan our development approach for your website.</p>
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[16px] w-[1px] h-[100%] bg-[black] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[30px] w-[30px] rounded-full bg-[orange] mr-[15px]'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>3</div>
                     </div>
-                    <div className='my-[15px] bg-green-500 p-[15px]'>
-                        <div className='flex items-end'>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
                             {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
-                            <div className='w-[70px] h-[70px]'>
+                            <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold'>Taking Notes!</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Creating the Website</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia velit expedita itaque distinctio facere accusantium harum et sapiente nulla ipsum.</p>
+                        <p className='font-medium text-[#678C92]'>
+                            In this phase, we build the whole site according to the plan.
+                        </p>
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[16px] w-[1px] h-[100%] bg-[black] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[30px] w-[30px] rounded-full bg-[orange] mr-[15px]'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>4</div>
                     </div>
-                    <div className='my-[15px] bg-green-500 p-[15px]'>
-                        <div className='flex items-end'>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
                             {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
-                            <div className='w-[70px] h-[70px]'>
+                            <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold'>Taking Notes!</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Showing the Website to You</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia velit expedita itaque distinctio facere accusantium harum et sapiente nulla ipsum.</p>
+                        <p className='font-medium text-[#678C92]'>
+                            After making the entire website, before going live, we show the website to you to ensure everything is alright.</p>
+                    </div>
+                </div>
+
+
+                <div className='flex items-center bg-transparent relative'>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
+                    <div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>5</div>
+                    </div>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
+                            {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
+                            <div className='w-[50px] h-[50px] mr-2'>
+                                <img src="/demo1.png" alt="" />
+                            </div>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Revising</p>
+                        </div>
+                        <p className='font-medium text-[#678C92]'>
+                            After disclosing the whole site, if there is any mistake or there is something you want us to change in the website, we do that task at this stage.  </p>
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[16px] w-[1px] h-[50%] top-[0px] bg-[black] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[50%] top-[0px] bg-[#4397A4] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[30px] w-[30px] rounded-full bg-[orange] mr-[15px]'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>6</div>
                     </div>
-                    <div className='my-[15px] bg-green-500 p-[15px]'>
-                        <div className='flex items-end'>
+                    <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
+                        <div className='flex items-end mb-[15px]'>
                             {/* <FontAwesomeIcon icon={faPhone} size='2x' /> */}
-                            <div className='w-[70px] h-[70px]'>
+                            <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold'>Taking Notes!</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Final Deliver</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia velit expedita itaque distinctio facere accusantium harum et sapiente nulla ipsum.</p>
+                        <p className='font-medium text-[#678C92]'>Finally, we deliver the complete project ensuring 100% of your satisfaction.  </p>
                     </div>
                 </div>
             </div>
-            {/* </div> */}
         </>
     );
 };
