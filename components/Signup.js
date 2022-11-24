@@ -9,9 +9,7 @@ const Signup = () => {
         const lastName = e.target.lastName.value
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log({ firstName, lastName, email, password })
         createUserWithEmailAndPassword(auth, email, password).then((userCredentials)=>{
-            console.log(userCredentials)
             sendEmailVerification(userCredentials.user)
         })
     }

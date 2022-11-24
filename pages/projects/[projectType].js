@@ -7,9 +7,7 @@ import { projects } from '../../data/projects';
 
 const ProjectId = () => {
     const { projectType } = useRouter().query
-    console.log(projectType)
     const selected = projects.filter(project => project.type == projectType)
-    console.log(selected)
     return (
         <>
             <Navbar />

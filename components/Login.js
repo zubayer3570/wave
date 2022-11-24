@@ -9,9 +9,7 @@ const Login = () => {
         const lastName = e.target.lastName.value
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log({ firstName, lastName, email, password })
         signInWithEmailAndPassword(auth, email, password).then((userCredentials)=>{
-            console.log(userCredentials)
         })
     }
     return (

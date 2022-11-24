@@ -3,7 +3,6 @@ import React from 'react';
 
 const Contact = () => {
     const router = useRouter()
-    console.log(router)
     const handleSubmit = (e) => {
         e.preventDefault()
         axios.post("https://mailing-service.onrender.com/sendmail", {
