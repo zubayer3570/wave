@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-between px-[9%] pt-[50px]'>
             <div className='flex items-center'>
-                <Link href='/'>
+                <Link href='/'className='cursor-default'>
                     <p className='font-bold text-[24px] text-[#486A6F]'>Wave</p>
                 </Link>
             </div>
@@ -18,7 +18,7 @@ const Navbar = () => {
                 <ul className='flex text-[#678C92] font-medium'>
                     <Link href='/about'><li className='px-4'>About</li></Link>
                     <Link href='/services'><li className='px-4'>Services</li></Link>
-                    <Link href='/projects'><li className='px-4'>Projects</li></Link>
+                    <Link href='/projects/all'><li className='px-4'>Projects</li></Link>
                     <Link href='/contact'><li className='px-4'>Contact</li></Link>
                 </ul>
             </div>
