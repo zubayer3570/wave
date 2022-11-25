@@ -8,7 +8,7 @@ const Index = () => {
     return (
         <>
             <Navbar />
-            <div className='lg:h-[85vh]'>
+            <div className='lg:h-[85vh] z-[-10]'>
                 <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_bpqri9y8.json" loop autoplay speed="1" background='transparent' />
             </div>
             <p className='text-[#5BCCDE] text-center'>Our Team</p>
