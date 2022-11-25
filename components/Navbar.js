@@ -8,14 +8,13 @@ const Navbar = () => {
         setMenuShow(!menuShow);
     }
     return (
-        <div className='pt-[50px] flex items-center'>
-            <div className='grid grid-cols-3 px-[9%]'>
-                <div>
+            <div className='grid grid-cols-3 px-[9%] pt-[50px]'>
+                <div className='flex items-center'>
                     <Link href='/'>
                         <p className='font-bold text-[24px] text-[#486A6F]'>Wave</p>
                     </Link>
                 </div>
-                <div className='hidden lg:block'>
+                <div className='hidden lg:flex items-center'>
                     <ul className='flex text-[#678C92] font-medium'>
                         <Link href='/about'><li className='px-4'>About</li></Link>
                         <Link href='/services'><li className='px-4'>Services</li></Link>
@@ -40,8 +39,6 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </div>
-
     );
 };
 
