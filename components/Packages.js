@@ -106,7 +106,7 @@ const Packages = () => {
                                 <p className="font-bold text-[25px] py-[15px]">
                                     2500<span className='text-[20px]'>BDT</span>
                                 </p>
-                                <div className='text-[13px]'>
+                                <div className='text-[16px]'>
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  1 Page Website </p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Unlimited Sections</p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Responsive Web Pages </p> <br />
@@ -125,7 +125,7 @@ const Packages = () => {
                                 <p className="font-bold text-[25px] py-[15px]">
                                     5000<span className='text-[20px]'>BDT</span>
                                 </p>
-                                <div className='text-[13px]'>
+                                <div className='text-[16px]'>
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  4 to 6 Pages Website </p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Responsive Web Pages </p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Unlimited Sections </p> <br />
@@ -144,7 +144,7 @@ const Packages = () => {
                                 <p className="font-bold text-[25px] py-[15px]">
                                     10000<span className='text-[20px]'>BDT</span>
                                 </p>
-                                <div className='text-[13px]'>
+                                <div className='text-[16px]'>
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  10 to 15 Pages Website </p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Unlimited Sections </p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Responsive Web Pages </p> <br />
@@ -160,10 +160,10 @@ const Packages = () => {
                         <div className='flex justify-center w-full '>
                             <div className='flex flex-col items-center w-full rounded-xl shadow-custom-1 h-full p-4 pb-16'>
                                 <p className='font-bold text-orange-500'>Custom</p>
-                                <p className="font-bold text-[20px] py-[15px]">
+                                <p className="font-bold text-[25px] py-[15px]">
                                     Negotiable
                                 </p>
-                                <div className='text-[13px]'>
+                                <div className='text-[16px]'>
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  No limit to page count</p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Any Kind of Website</p> <br />
                                     <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Responsive Web Pages </p> <br />
