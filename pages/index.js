@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
-        <div className="bg-[url('/hero-img-bg-element.png')] h-[100vh]">
+        <div className="bg-[url('/hero-img-bg-element.png')] bg-cover h-[100vh]">
           <Navbar />
           <div className="lg:grid grid-cols-5 mx-[9%] mt-[30px]">
             <div className="col-span-3 flex flex-col justify-center items-center">
