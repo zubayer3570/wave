@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='p-8 mt-44 lg:p-20 bg-[#486A6F] grid grid-cols-1 lg:grid-cols-4 text-[#F4F7FF] text-[15px]' >
+        <div className='p-8  lg:p-20 bg-[#486A6F] grid grid-cols-1 lg:grid-cols-4 text-[#F4F7FF] text-[13px]' >
             <div className='lg:flex flex-wrap justify-center'>
                 <div>
                     <p className='font-bold mb-4 text-[24px]'>Wave</p>

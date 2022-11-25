@@ -6,9 +6,9 @@ const WorkingProcess = () => {
     return (
         <>
             <div>
-                <p className='text-center text-[#486A6F] font-bold text-[60px] mt-40 mb-8'>How we Work?</p>
+                <p className='text-center text-[#486A6F] font-bold text-[60px] mt-20 mb-8'>How we Work?</p>
             </div>
-            <div className='relative mx-[20%]'>
+            <div className='relative mx-[9%] lg:mx-[20%]'>
                 <div className='flex items-center bg-transparent relative'>
                     <div className='absolute left-[17px] bottom-[0px] w-[2px] h-[50%] bg-[#4397A4] z-[-1]'></div>
                     <div>
@@ -19,7 +19,7 @@ const WorkingProcess = () => {
                             <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Listening & Note Taking</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Note Taking</p>
                         </div>
                         <p className='font-medium text-[#678C92]'>At first, we pay attention to your requirements carefully and make important drafts to understand your needs properlyz</p>
                     </div>
@@ -52,7 +52,7 @@ const WorkingProcess = () => {
                             <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Creating the Website</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Development</p>
                         </div>
                         <p className='font-medium text-[#678C92]'>
                             In this phase, we build the whole site according to the plan.
@@ -70,7 +70,7 @@ const WorkingProcess = () => {
                             <div className='w-[50px] h-[50px] mr-2'>
                                 <img src="/demo1.png" alt="" />
                             </div>
-                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Showing the Website to You</p>
+                            <p className='text-[30px] font-bold leading-8 text-[#486A6F]'>Feedback</p>
                         </div>
                         <p className='font-medium text-[#678C92]'>
                             After making the entire website, before going live, we show the website to you to ensure everything is alright.</p>

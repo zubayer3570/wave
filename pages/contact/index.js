@@ -8,8 +8,8 @@ import Contact from '../../components/Contact';
 const ContactPage = () => {
     return (
         <>
-            <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
-                <div className="bg-[url('/Figure.svg')] bg-no-repeat bg-right-top">
+            <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA] h-[100vh]">
+                <div className="bg-[url('/Figure.svg')] bg-no-repeat bg-right-top h-[100vh]">
                     <Navbar />
                     <Contact />
                 </div>

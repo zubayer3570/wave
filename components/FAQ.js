@@ -4,7 +4,7 @@ import Collapse from './Collapse';
 const FAQ = () => {
     return (
         <>
-            <p className='font-bold text-[60px] text-[#486A6F] text-center mt-40 mb-12'>FAQ</p>
+            <p className='font-bold text-[60px] text-[#486A6F] text-center mt-20 mb-12'>FAQ</p>
             <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 w-full px-[9%]'>
                 <div>
                     <Collapse question="Is domain and hosting price included in Packages?" answer="No, domain and hosting charge is not included in our package. You need to purchase that yourself and provide us the C-Panel login details in order to have us get started working on your project. However, if you have not much idea about domain and hosting, we can help you with that. BUT, THE COST IS ON YOU."></Collapse>
