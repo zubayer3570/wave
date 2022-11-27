@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper";
+import Link from 'next/link';
 
 const Packages = () => {
     return (
@@ -46,6 +47,7 @@ const Packages = () => {
                                 <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  Unlimited Revisions </p> <br />
                                 <img src="/svgs/tick.svg" className=' mr-2 inline-block' alt="" /><p className='my-[3px] inline-block'>  1 Week delivery </p> <br />
                             </div>
+                            <Link href='/contact'>Contact Us</Link>
                         </div>
                     </div>
                     <div className='flex justify-center w-full '>

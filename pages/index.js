@@ -7,24 +7,27 @@ import "swiper/css";
 import "swiper/css/pagination";
 import WorkingProcess from "../components/WorkingProcess";
 import Contact from "../components/Contact";
-import { Oxygen, Josefin_Slab, Source_Sans_Pro } from '@next/font/google'
+import { Oxygen, Josefin_Slab, Source_Sans_Pro, Calistoga, Nunito } from '@next/font/google'
 import Typewriter from "typewriter-effect";
 
 const oxygen = Oxygen({ weight: "700" })
 // const sourceSansPro = Source_Sans_Pro({weight: '400'})
-const josefinSlab = Josefin_Slab({ weight: "400", subsets:['latin'] })
+const josefinSlab = Josefin_Slab({ weight: "400", subsets: ['latin'] })
+const calistoga = Calistoga({ weight: "400", subsets: ['latin'] })
+const nunito = Nunito({ weight: "400", subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <div className="bg-gradient-to-r from-[#C6DBFF] to-[#E1EBFA]">
-        <div className="bg-[url('/hero-img-bg-element.png')] bg-cover h-[100vh]">
+      {/* <div className="bg-gradient-to-r from-[#1746A2] to-[#5F9DF7]"> */}
+      <div className="bg-[#FCFDF2]">
+        <div className="bg-[url('/vector-svg.svg')] bg-contain bg-no-repeat bg-right-top h-[100vh]">
           <Navbar />
           <div className="lg:grid grid-cols-5 mx-[9%] mt-[30px]">
             <div className="col-span-3 flex flex-col justify-center items-center">
               <div className="mt-12">
-                <div className={oxygen.className}>
-                  <div className="font-bold text-[60px] text-[#486A6F] lg:h-[140px] leading-[70px] mb-[20px]">
+                <div className={calistoga.className}>
+                  <div className=" text-[60px] text-[#486A6F] lg:h-[140px] leading-[70px] mb-[20px]">
                     <Typewriter
                       onInit={(typeWriter) => (
                         typeWriter.typeString("We Help <span class='text-red-500' >Businesses</span> Shine on the <span class='text-red-500' >Web</span>").pauseFor(3000).deleteAll().start()
@@ -41,12 +44,16 @@ export default function Home() {
                   </p> */}
                 </div>
                 <div className={josefinSlab.className}>
-                  <p className="mb-8 text-[22px] text-[#678C92]">
-                    Want to give your business an online presence? We are ready to provide 	you an unique, professional and creative one that can assist you build a loyal and 	strong customer base!
-                  </p>
+                  <div className="mr-8">
+                    <p className="mb-8 text-[22px] text-[#678C92]">
+                      Want to give your business an online presence? We are ready to provide 	you an unique, professional and creative one that can assist you build a loyal and 	strong customer base!
+                    </p>
+                  </div>
                 </div>
-                <button className="bg-[#4397A4] rounded px-6 py-3 text-[white] text-[16px] font-bold m-2 shadow-2xl">Services</button>
-                <button className="bg-[#C6DBFF] rounded px-6 py-3 text-[#486A6F] text-[16px] font-bold m-2">Contact Us</button>
+                <div className={nunito.className}>
+                  <button className="bg-[#5F9DF7] rounded px-6 py-3 text-[white] text-[16px] font-bold m-2 shadow-2xl">Services</button>
+                  <button className="bg-[#C6DBFF] rounded px-6 py-3 text-[#486A6F] text-[16px] font-bold m-2">Contact Us</button>
+                </div>
               </div>
             </div>
             <div className="hidden lg:block col-span-2">
@@ -65,12 +72,12 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 mx-[9%] lg:p-4 rounded-2xl shadow-custom-1">
-          <div className="h-[350px] flex justify-center items-center overflow-hidden rounded-xl px-4 mt-[-10px] lg:mt-0 lg:p-0">
-            <div className="h-[600px">
+          <div className="h-[350px] flex justify-center items-center overflow-hidden rounded-xl px-4 mt-[20px] lg:mt-0 lg:p-0">
+            <div className="h-[600px]">
               <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_oezdywcm.json" autoplay loop speed='1' background="#C6DBFF" />
             </div>
           </div>
-          <div className="mx-8 mb-8 lg:mt-6">
+          <div className="mx-8 mb-8 lg:mb-0 lg:mt-6">
             <p className="text-text-color-1 font-bold text-[40px]">Heading</p>
             <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>
             <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>

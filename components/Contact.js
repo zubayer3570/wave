@@ -53,26 +53,26 @@ const Contact = () => {
                 </div>
                 <div>
                     <form onSubmit={handleSubmit}>
-                        <div className='mx-8 bg-[#D7E5FC] p-8 shadow-2xl text-[#678C92] rounded-xl'>
+                        <div className='mx-8 bg-[#B8E8FC] p-8 shadow-2xl text-[#678C92] rounded-xl'>
                             <div className='grid grid-cols-2 gap-4'>
                                 <div>
                                     <p className='text-[14px] mb-[5px] '>Name</p>
-                                    <input type="text" name="name" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#D7E5FC]' />
+                                    <input type="text" name="name" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#FCFDF2]' />
                                 </div>
                                 <div>
                                     <p className='text-[14px] mb-[5px] '>Email</p>
-                                    <input type="text" name="email" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#D7E5FC]' />
+                                    <input type="text" name="email" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#FCFDF2]' />
                                 </div>
                             </div>
                             <div>
                                 <p className='text-[14px] mb-[5px] '>Subject</p>
-                                <input type="text" name="subject" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#D7E5FC]' />
+                                <input type="text" name="subject" id="" className='border-[1.5px] outline-0 rounded-[3px] h-[40px] mb-[20px] border-[#486A6F] w-full bg-[#FCFDF2]' />
                             </div>
                             <div>
                                 <p className='text-[14px] mb-[5px] '>Message</p>
-                                <textarea name="message" id="" cols="30" rows="5" className='border-[1.5px] rounded-[3px] border-[#486A6E] w-full bg-[#D7E5FC] border-[#486A6F] resize-none outline-0 mb-[20px]'></textarea>
+                                <textarea name="message" id="" cols="30" rows="5" className='border-[1.5px] rounded-[3px] border-[#486A6E] w-full bg-[#FCFDF2] border-[#486A6F] resize-none outline-0 mb-[20px]'></textarea>
                             </div>
-                            <input type="submit" value='Send Message' className='font-bold text-[16px] w-full h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center' />
+                            <input type="submit" value='Send Message' className='font-bold text-[16px] w-full h-[40px] bg-[#5F9DF7] text-[white] rounded flex justify-center items-center' />
                         </div>
                     </form>
                 </div>

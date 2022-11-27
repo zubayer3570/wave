@@ -15,7 +15,12 @@ const Index = () => {
             <p className='font-bold text-[36px] text-[#486A6F] mb-6 text-center'>Let&apos;s meet!</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-12 mx-12 mb-24'>
                 {
-                    members.map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
+                    members.slice(0, 3).map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
+                }
+            </div>
+            <div className='flex'>
+                {
+                    members.slice(3, 6).map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
                 }
             </div>
             <Footer />

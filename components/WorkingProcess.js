@@ -10,9 +10,9 @@ const WorkingProcess = () => {
             </div>
             <div className='relative mx-[9%] lg:mx-[20%]'>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] bottom-[0px] w-[2px] h-[50%] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] bottom-[0px] w-[2px] h-[50%] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>1</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>1</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -25,9 +25,9 @@ const WorkingProcess = () => {
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>2</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>2</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -42,9 +42,9 @@ const WorkingProcess = () => {
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>3</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>3</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -60,9 +60,9 @@ const WorkingProcess = () => {
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>4</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>4</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -79,9 +79,9 @@ const WorkingProcess = () => {
 
 
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[100%] border-[#4397A4] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>5</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>5</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -96,9 +96,9 @@ const WorkingProcess = () => {
                     </div>
                 </div>
                 <div className='flex items-center bg-transparent relative'>
-                    <div className='absolute left-[17px] w-[2px] h-[50%] top-[0px] bg-[#4397A4] z-[-1]'></div>
+                    <div className='absolute left-[17px] w-[2px] h-[50%] top-[0px] bg-[#5F9DF7] z-[-1]'></div>
                     <div>
-                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#4397A4] text-[white] mr-[15px] font-bold'>6</div>
+                        <div className='flex justify-center items-center h-[35px] w-[35px] rounded-full bg-[#5F9DF7] text-[white] mr-[15px] font-bold'>6</div>
                     </div>
                     <div className='my-[15px] shadow-custom-1 rounded-xl p-[15px] w-full'>
                         <div className='flex items-end mb-[15px]'>
@@ -117,35 +117,3 @@ const WorkingProcess = () => {
 };
 
 export default WorkingProcess;
-
-
-{/* <div className='mx-[9%]'>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Listening</p>
-        <p className='font-medium text-center'>Listen: At first, we listen to all of the clients requirements very carefully.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Making Draft</p>
-        <p className='font-medium text-center'>Make draft: While listening, we make draft and take notes of important needs of our customers.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Plan</p>
-        <p className='font-medium text-center'>Plan: All of our team member sit together and plan on how our approach will be.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Build</p>
-        <p className='font-medium text-center'>Build: We create our customers desired website in this phase.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Show</p>
-        <p className='font-medium text-center'>Show: After making the whole site, we show it to our clients to make sure everything is okay.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Revise</p>
-        <p className='font-medium text-center'>Revise: After showing to clients, we redesign/ customize the site where needed. And, at the end of this stage, our website gets ready for deliver.</p>
-    </div>
-    <div className='rounded-2xl shadow-custom-1 my-4 p-6 text-[#486A6F]'>
-        <p className='font-bold text-[20px] text-center'>Deliver</p>
-        <p className='font-medium text-center'>Deliver: We deliver the complete project after full payment and complete our task.</p>
-    </div>
-</div> */}

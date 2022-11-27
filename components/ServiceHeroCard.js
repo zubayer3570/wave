@@ -5,8 +5,8 @@ import React from 'react';
 const ServiceHeroCard = ({ name, text, id, img }) => {
     return (
         <div className={`bg-gradient-to-r ${id % 2 ? "from-[#C6DBFF] to-[#E1EBFA]" : 'from-[#E1EBFA] to-[#C6DBFF]'} grid grid-cols-5 w-full rounded overflow-hidden my-8 p-4`}>
-            <div className={`${id % 2 || "order-3"} col-span-2`}>
-                <img src={img} className='rounded-xl' />
+            <div className={`${id % 2 || "order-3"} col-span-2 h-[300px] overflow-hidden`}>
+                <lottie-player src={img} autoplay loop speed='1' background="#C6DBFF" />
             </div>
             <div className='order-1 col-span-3 px-8'>
                 <div className='py-4 text-justify'>
