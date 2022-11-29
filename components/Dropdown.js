@@ -20,7 +20,7 @@ const Dropdown = ({ dropdownElements, getSelected }) => {
                             setSelectedHeader(header)
                             setDropState(false)
                             getSelected(header)
-                        }} className='border-t-2' >{header}</div>
+                        }} key={header} className='border-t-2' >{header}</div>
                     ))
                 }
             </div>
