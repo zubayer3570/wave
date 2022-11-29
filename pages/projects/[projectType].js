@@ -1,19 +1,27 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
+import Dropdown from '../../components/Dropdown';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import ProjectCard from '../../components/ProjectCard';
 import { projects } from '../../data/projects';
 
 const ProjectId = () => {
+    const router = useRouter()
     const { projectType } = useRouter().query
     const selected = projectType == "all" ? projects : projects.filter(project => project.type == projectType)
     const [tab, setTab] = useState(0)
+    const getSelected = (selected) => {
+        router.push(`/projects/${selected.toLowerCase()}`)
+    }
     return (
         <>
             <Navbar />
-            <div className='mt-8'>
+            <div className='mx-[9%] w-[30%] lg:hidden text-center rounded-xl overflow-hidden bg-red-500 my-2'>
+                <Dropdown dropdownElements={["All", 'Blog', 'Ecommerce', 'News', 'Business']} getSelected={getSelected} />
+            </div>
+            <div className='mt-8 hidden lg:block'>
                 <ul className='flex justify-between items-end lg:justify-start mx-[5%] lg:mx-[9%] mb-8 font-bold text-[#486A6F]'>
                     <Link href='/projects/all' onClick={() => setTab(0)} ><li className={`p-2 ${tab == 0 ? 'bg-[#4397A4] text-[white]' : 'bg-[#C6DBFF]'}  lg:mr-2 rounded cursor-default lg:cursor-pointer`}>All</li></Link>
                     <Link href='/projects/blog' onClick={() => setTab(1)} ><li className={`p-2 ${tab == 1 ? 'bg-[#4397A4] text-[white]' : 'bg-[#C6DBFF]'}  lg:mr-2 rounded cursor-default lg:cursor-pointer`}>Blog</li></Link>
