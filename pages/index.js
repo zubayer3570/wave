@@ -21,7 +21,7 @@ export default function Home() {
     <>
       {/* <div className="bg-gradient-to-r from-[#1746A2] to-[#5F9DF7]"> */}
       <div className="bg-[#FCFDF2]">
-        <div className="bg-[url('/vector-svg.svg')] bg-contain bg-no-repeat bg-right-top h-[100vh]">
+        <div className="bg-[url('/vector-svg.svg')] bg-cover lg:bg-contain bg-no-repeat bg-right-top h-[100vh]">
           <Navbar />
           <div className="lg:grid grid-cols-5 mx-[9%] mt-[30px]">
             <div className="col-span-3 flex flex-col justify-center items-center">

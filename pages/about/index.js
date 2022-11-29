@@ -13,15 +13,17 @@ const Index = () => {
             </div>
             <p className='text-[#5BCCDE] text-center'>Our Team</p>
             <p className='font-bold text-[36px] text-[#486A6F] mb-6 text-center'>Let&apos;s meet!</p>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-12 mx-12 mb-24'>
+            <div className='grid grid-cols-1 lg:grid-cols-6 gap-12 mx-[9%] lg:mb-12'>
                 {
-                    members.slice(0, 3).map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
+                    members.slice(0, 3).map((member) => <div className='col-span-2' key={member.id}><MemberCard name={member.name} position={member.position} /></div>)
                 }
             </div>
-            <div className='flex'>
+            <div className='grid grid-cols-1 lg:grid-cols-6 gap-12 mx-[9%] mb-24'>
+                <div></div>
                 {
-                    members.slice(3, 6).map((member) => <MemberCard key={member.id} name={member.name} position={member.position} />)
+                    members.slice(3, 6).map((member) => <div className='col-span-2'><MemberCard key={member.id} name={member.name} position={member.position} /></div>)
                 }
+                <div></div>
             </div>
             <Footer />
         </>
