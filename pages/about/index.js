@@ -21,7 +21,7 @@ const Index = () => {
             <div className='grid grid-cols-1 lg:grid-cols-6 gap-12 mx-[9%] mb-24'>
                 <div></div>
                 {
-                    members.slice(3, 6).map((member) => <div className='col-span-2'><MemberCard key={member.id} name={member.name} position={member.position} /></div>)
+                    members.slice(3, 6).map((member) => <div key={member.id} className='col-span-2'><MemberCard key={member.id} name={member.name} position={member.position} /></div>)
                 }
                 <div></div>
             </div>
