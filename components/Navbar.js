@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link href='/contact'><li className='px-4'>Contact</li></Link>
                 </ul>
             </div>
-            <div>
+            <div className='hidden lg:block'>
                 <p onClick={() => router.push('/contact')} className='cursor-pointer font-bold text-[16px] w-[165px] h-[40px] bg-[#4397A4] text-[white] rounded flex justify-center items-center lg:ml-auto'>
                     Need a Website?
                 </p>
