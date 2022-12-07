@@ -77,15 +77,18 @@ export default function Home() {
               <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_oezdywcm.json" autoplay loop speed='1' background="#C6DBFF" />
             </div>
           </div>
-          <div className="mx-8 mb-8 lg:mb-0 lg:mt-6">
-            <p className="text-text-color-1 font-bold text-[40px]">Heading</p>
-            <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>
-            <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>
-            <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>
-            <p className="text-text-color-2 font-medium">We provide the following services. However, our team is always ready to build any custom website for you.</p>
-            <Link href='/services'>
-              <button className="block mt-4 bg-[#4397A4] rounded px-4 py-3 text-[white] text-[16px] font-bold shadow-2xl">See All Services</button>
-            </Link>
+          <div className="mx-8 mb-8 lg:mb-0 flex items-center">
+            <div>
+              <p className="text-text-color-1 font-bold text-[40px]">Heading</p>
+              <div className={josefinSlab.className}>
+                <p className="mb-4 text-[18px] text-[#678C92]">
+                  We provide web services both in WordPress and React according to clients requirements. Being confident enough to establish your online presense through a website, we offer website creation in different categories such as ECommerce, Blog, Portfolio, Learning Management System, News, Event, etc. If you are interested to explore our services in detail, click on the button below.
+                </p>
+              </div>
+              <Link href='/services'>
+                <button className="block mt-4 bg-[#4397A4] rounded px-4 py-3 text-[white] text-[16px] font-bold shadow-2xl">See All Services</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
