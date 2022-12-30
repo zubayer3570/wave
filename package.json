@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -17,7 +16,7 @@
     "firebase": "^9.14.0",
     "lottie-react": "^2.3.1",
     "lottie-web": "^5.9.6",
-    "next": "^13.0.3",
+    "next": "13.0.3",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
     "swiper": "^8.4.4",
